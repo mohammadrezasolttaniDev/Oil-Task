@@ -25,21 +25,21 @@
         <input type="text" id="searchInput" class="form-control" placeholder="جستجو..." style="direction: rtl;">
     </div>
     <ul class="nav flex-column" id="menuItems">
-        <li class="nav-item">
-            <a class="nav-link active" href="#"><i class="bi bi-house-door-fill"></i> <strong
-                    style="float: right;">خانه</strong></a>
-        </li>
+<%--        <li class="nav-item">--%>
+<%--            <a class="nav-link active" href="#"><i class="bi bi-house-door-fill"></i> <strong--%>
+<%--                    style="float: right;">خانه</strong></a>--%>
+<%--        </li>--%>
         <li class="nav-item">
             <a class="nav-link" href="#"><i class="bi bi-person-fill"></i> <strong
-                    style="float: right;">پروفایل</strong></a>
+                    style="float: right;" href="">کاربران</strong></a>
         </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#"><i class="bi bi-envelope-fill"></i> <strong
-                    style="float: right;">پیام‌ها</strong></a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#"><i class="bi bi-gear-fill"></i> <strong style="float: right;">تنظیمات</strong></a>
-        </li>
+<%--        <li class="nav-item">--%>
+<%--            <a class="nav-link" href="#"><i class="bi bi-envelope-fill"></i> <strong--%>
+<%--                    style="float: right;">پیام‌ها</strong></a>--%>
+<%--        </li>--%>
+<%--        <li class="nav-item">--%>
+<%--            <a class="nav-link" href="#"><i class="bi bi-gear-fill"></i> <strong style="float: right;">تنظیمات</strong></a>--%>
+<%--        </li>--%>
     </ul>
 </div>
 
@@ -47,26 +47,19 @@
 <div class="content" id="content">
 
     <button style="border-radius: 0px;" class="btn btn-danger closeBtn" onclick="closeDiv();">بستن</button>
-    <h2 style="float: right">پروفایل</h2>
     <p style="direction: rtl"></p>
 
     <div id="tab" class="tab">
-        <button style="float: right" onclick="openCity(event, 'London')">ثبت جدید</button>
-        <button style="float: right" onclick="openCity(event, 'Paris')">ثبت جزئیات</button>
-        <button style="float: right" onclick="openCity(event, 'Tokyo')">لیست</button>
+        <button style="float: right" onclick="changeNavbar(event, 'edit')">ثبت جدید</button>
+        <button style="float: right" onclick="changeNavbar(event, 'Grid')">لیست</button>
     </div>
 
-    <div id="London" class="tabcontent" style="direction: rtl">
-        <h3>London</h3>
-        <p>London is the capital city of England.</p>
+    <div id="edit" class="tabcontent" style="direction: rtl">
+        <jsp:include page="users/Edit.jsp"/>
     </div>
 
-    <div id="Paris" class="tabcontent" style="direction: rtl">
-<%--        <jsp:include page="../../sunProject/profile/Edit.jsp"/>--%>
-    </div>
-
-    <div id="Tokyo" class="tabcontent" style="direction: rtl">
-<%--        <jsp:include page="../../sunProject/profile/Grid.jsp"/>--%>
+    <div id="Grid" class="tabcontent" style="direction: rtl">
+        <jsp:include page="users/Grid.jsp"/>
     </div>
 </div>
 
@@ -113,6 +106,20 @@
         var tabpennel = document.getElementById("tab");
         contentdocumentDiv.style.visibility = 'hidden';
         tabpennel.style.visibility = 'hidden';
+    }
+
+    function changeNavbar(evt, partName) {
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+        document.getElementById(partName).style.display = "block";
+        evt.currentTarget.className += " active";
     }
 </script>
 </body>
