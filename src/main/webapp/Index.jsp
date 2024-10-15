@@ -46,6 +46,28 @@
 <!-- main contents -->
 <div class="content" id="content">
 
+    <button style="border-radius: 0px;" class="btn btn-danger closeBtn" onclick="closeDiv();">بستن</button>
+    <h2 style="float: right">پروفایل</h2>
+    <p style="direction: rtl"></p>
+
+    <div id="tab" class="tab">
+        <button style="float: right" onclick="openCity(event, 'London')">ثبت جدید</button>
+        <button style="float: right" onclick="openCity(event, 'Paris')">ثبت جزئیات</button>
+        <button style="float: right" onclick="openCity(event, 'Tokyo')">لیست</button>
+    </div>
+
+    <div id="London" class="tabcontent" style="direction: rtl">
+        <h3>London</h3>
+        <p>London is the capital city of England.</p>
+    </div>
+
+    <div id="Paris" class="tabcontent" style="direction: rtl">
+<%--        <jsp:include page="../../sunProject/profile/Edit.jsp"/>--%>
+    </div>
+
+    <div id="Tokyo" class="tabcontent" style="direction: rtl">
+<%--        <jsp:include page="../../sunProject/profile/Grid.jsp"/>--%>
+    </div>
 </div>
 
 <script>
@@ -85,6 +107,13 @@
             }
         }
     });
+
+    function closeDiv() {
+        var contentdocumentDiv = document.getElementById("content");
+        var tabpennel = document.getElementById("tab");
+        contentdocumentDiv.style.visibility = 'hidden';
+        tabpennel.style.visibility = 'hidden';
+    }
 </script>
 </body>
 </html>
