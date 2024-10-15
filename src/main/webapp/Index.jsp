@@ -33,19 +33,12 @@
             <a class="nav-link" href="#"><i class="bi bi-person-fill"></i> <strong
                     style="float: right;" href="">کاربران</strong></a>
         </li>
-<%--        <li class="nav-item">--%>
-<%--            <a class="nav-link" href="#"><i class="bi bi-envelope-fill"></i> <strong--%>
-<%--                    style="float: right;">پیام‌ها</strong></a>--%>
-<%--        </li>--%>
-<%--        <li class="nav-item">--%>
-<%--            <a class="nav-link" href="#"><i class="bi bi-gear-fill"></i> <strong style="float: right;">تنظیمات</strong></a>--%>
-<%--        </li>--%>
     </ul>
 </div>
 
 <!-- main contents -->
 <div class="content" id="content">
-
+    <h2 style="float: right">کاربران</h2>
     <button style="border-radius: 0px;" class="btn btn-danger closeBtn" onclick="closeDiv();">بستن</button>
     <p style="direction: rtl"></p>
 
