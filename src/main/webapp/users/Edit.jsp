@@ -12,28 +12,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css">
+
 </head>
 <body>
-<form class="form-inline" action="#">
-    <div class="form-group">
-        <label for="email">ایمیل </label>
-        <input type="email" class="form-control" id="email">
+<form>
+    <div class="form-row">
+        <div class="form-group col-md-6">
+            <label style="float: right" for="inputEmail4">ایمیل</label>
+            <input type="email" class="form-control" id="inputEmail4" placeholder="ایمیل" style="text-align: right;">
+        </div>
+        <div class="form-group col-md-6">
+            <label style="float: right" for="inputPassword4">رمز عبور</label>
+            <input type="password" class="form-control" id="inputPassword4" placeholder="رمز عبور" style="text-align: right;">
+        </div>
     </div>
     <div class="form-group">
-        <label for="pwd">گذاره واژه</label>
-        <input type="password" class="form-control" id="pwd">
+        <label style="float: right" for="inputAddress">آدرس</label>
+        <input type="text" class="form-control" id="inputAddress" placeholder="۱۲۳۴ خیابان اصلی" style="text-align: right;">
     </div>
+    <div class="form-group">
+        <label style="float: right" for="inputAddress2">آدرس ۲</label>
+        <input type="text" class="form-control" id="inputAddress2" placeholder="آپارتمان، استودیو یا طبقه" style="text-align: right;">
+    </div>
+    <div class="form-row">
+        <div class="form-group col-md-6">
+            <label style="float: right" for="inputCity">شهر</label>
+            <input type="text" class="form-control" id="inputCity" style="text-align: right;">
+        </div>
+        <div class="form-group col-md-4">
+            <label style="float: right" for="inputState">استان</label>
+            <select id="inputState" class="form-control" style="text-align: right;">
+                <option selected>انتخاب کنید...</option>
+                <option>...</option>
+            </select>
+        </div>
+        <div class="form-group col-md-2">
+            <label style="float: right" for="inputZip">کد پستی</label>
+            <input type="text" class="form-control" id="inputZip" style="text-align: right;">
+        </div>
+    </div>
+    <button style="float: right" type="submit" class="btn btn-primary">ثبت</button>
 </form>
-<form class="form-inline" action="#">
-    <div class="form-group">
-        <label for="pwd">نام</label>
-        <input type="text" class="form-control" id="pw2d">
-    </div>
-    <div class="form-group">
-        <label for="pwd">نام خانوادگی</label>
-        <input type="text" class="form-control" id="pw52d">
-    </div>
-</form>
-<button style="background-color: #007bff;color: white" type="submit" class="btn btn-default">ثبت</button>
+
 </body>
 </html>

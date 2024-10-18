@@ -25,10 +25,10 @@
         <input type="text" id="searchInput" class="form-control" placeholder="جستجو..." style="direction: rtl;">
     </div>
     <ul class="nav flex-column" id="menuItems">
-<%--        <li class="nav-item">--%>
-<%--            <a class="nav-link active" href="#"><i class="bi bi-house-door-fill"></i> <strong--%>
-<%--                    style="float: right;">خانه</strong></a>--%>
-<%--        </li>--%>
+        <li class="nav-item">
+            <a class="nav-link active" href="#"><i class="bi bi-house-door-fill"></i> <strong
+                    style="float: right;">خانه</strong></a>
+        </li>
         <li class="nav-item">
             <a class="nav-link" href="#"><i class="bi bi-person-fill"></i> <strong
                     style="float: right;" href="">کاربران</strong></a>
@@ -38,38 +38,25 @@
 
 <!-- main contents -->
 <div class="content" id="content">
-<%--    <h2 style="float: right">کاربران</h2>--%>
-<%--    <i class="bi bi-x-lg i-close" onclick="closeDiv();"></i>--%>
-<%--    <p style="direction: rtl"></p>--%>
-
-<%--    <div id="tab" class="tab">--%>
-<%--        <div>--%>
-<%--            <span style="float: right;font-size: 100%" onclick="changeNavbar(event, 'edit')">ثبت جدید</span>--%>
-<%--            <span style="float: right;font-size: 100%" onclick="changeNavbar(event, 'Grid')">لیست</span>--%>
-<%--        </div>--%>
-<%--        <div>--%>
-<%--            <i class="bi bi-x-lg i-close" onclick="closeDiv();"></i>--%>
-<%--        </div>--%>
-<%--    </div>--%>
 
     <ul class="nav nav-tabs" role="tablist">
         <li class="nav-item">
-            <a class="nav-link active" data-toggle="tab" href="#home">Home</a>
+            <a class="nav-link active" data-toggle="tab" href="#home">ثبت اولیه</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" data-toggle="tab" href="#menu1">Menu 1</a>
+            <a class="nav-link" data-toggle="tab" href="#menu1">تایید اولیه</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" data-toggle="tab" href="#menu2">Menu 2</a>
+            <a class="nav-link" data-toggle="tab" href="#menu2">لیست</a>
         </li>
     </ul>
 
     <!-- Tab panes -->
     <div class="tab-content">
-        <div id="home" class="container tab-pane active"><br>
-            <h3>HOME</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        </div>
+<%--        <div id="home" class="container tab-pane active"><br>--%>
+<%--            <h3>HOME</h3>--%>
+<%--            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>--%>
+<%--        </div>--%>
         <div id="menu1" class="container tab-pane fade"><br>
             <jsp:include page="users/Edit.jsp"/>
         </div>
