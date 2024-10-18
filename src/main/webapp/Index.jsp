@@ -15,7 +15,8 @@
 <body>
 <!-- x navbar -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-    <a class="nav-link text-light" href="#"><i class="bi bi-person-fill"></i></a>
+        <a class="nav-link text-light" href="#"><i class="bi bi-person-fill"></i></a>
+<%--        <img src="logo.png" height="40" width="120">--%>
 </nav>
 
 <!-- y navbar -->
@@ -31,7 +32,7 @@
         </li>
         <li class="nav-item">
             <a class="nav-link" href="#"><i class="bi bi-person-fill"></i> <strong
-                    style="float: right;" href="">کاربران</strong></a>
+                    style="float: right;" href="Index.jsp">کاربران</strong></a>
         </li>
     </ul>
 </div>
@@ -57,10 +58,10 @@
 <%--            <h3>HOME</h3>--%>
 <%--            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>--%>
 <%--        </div>--%>
-        <div id="menu1" class="container tab-pane fade"><br>
+        <div id="menu1" class=" tab-pane fade"><br>
             <jsp:include page="users/Edit.jsp"/>
         </div>
-        <div id="menu2" class="container tab-pane fade"><br>
+        <div id="menu2" class=" tab-pane fade"><br>
             <jsp:include page="users/Grid.jsp"/>
         </div>
     </div>
