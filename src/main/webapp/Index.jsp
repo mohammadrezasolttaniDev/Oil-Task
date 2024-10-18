@@ -12,7 +12,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="mainTemplate/css/templateStyle.css">
 </head>
-<body style="height:85%">
+<body>
 <!-- x navbar -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
     <a class="nav-link text-light" href="#"><i class="bi bi-person-fill"></i></a>
@@ -38,21 +38,44 @@
 
 <!-- main contents -->
 <div class="content" id="content">
-    <h2 style="float: right">کاربران</h2>
-    <button style="border-radius: 0px;" class="btn btn-danger closeBtn" onclick="closeDiv();">بستن</button>
-    <p style="direction: rtl"></p>
+<%--    <h2 style="float: right">کاربران</h2>--%>
+<%--    <i class="bi bi-x-lg i-close" onclick="closeDiv();"></i>--%>
+<%--    <p style="direction: rtl"></p>--%>
 
-    <div id="tab" class="tab">
-        <button style="float: right" onclick="changeNavbar(event, 'edit')">ثبت جدید</button>
-        <button style="float: right" onclick="changeNavbar(event, 'Grid')">لیست</button>
-    </div>
+<%--    <div id="tab" class="tab">--%>
+<%--        <div>--%>
+<%--            <span style="float: right;font-size: 100%" onclick="changeNavbar(event, 'edit')">ثبت جدید</span>--%>
+<%--            <span style="float: right;font-size: 100%" onclick="changeNavbar(event, 'Grid')">لیست</span>--%>
+<%--        </div>--%>
+<%--        <div>--%>
+<%--            <i class="bi bi-x-lg i-close" onclick="closeDiv();"></i>--%>
+<%--        </div>--%>
+<%--    </div>--%>
 
-    <div id="edit" class="tabcontent" style="direction: rtl">
-        <jsp:include page="users/Edit.jsp"/>
-    </div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="nav-item">
+            <a class="nav-link active" data-toggle="tab" href="#home">Home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="#menu1">Menu 1</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="#menu2">Menu 2</a>
+        </li>
+    </ul>
 
-    <div id="Grid" class="tabcontent" style="direction: rtl">
-        <jsp:include page="users/Grid.jsp"/>
+    <!-- Tab panes -->
+    <div class="tab-content">
+        <div id="home" class="container tab-pane active"><br>
+            <h3>HOME</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+        <div id="menu1" class="container tab-pane fade"><br>
+            <jsp:include page="users/Edit.jsp"/>
+        </div>
+        <div id="menu2" class="container tab-pane fade"><br>
+            <jsp:include page="users/Grid.jsp"/>
+        </div>
     </div>
 </div>
 
