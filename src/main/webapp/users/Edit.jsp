@@ -12,10 +12,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css">
-
 </head>
 <body>
-<form>
+<form style="margin: 50px">
     <div class="form-row">
         <div class="form-group col-md-6">
             <label style="float: right" for="inputEmail4">ایمیل</label>

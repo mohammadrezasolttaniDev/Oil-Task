@@ -41,9 +41,9 @@
 <div class="content" id="content">
 
     <ul class="nav nav-tabs" role="tablist">
-        <li class="nav-item">
-            <a class="nav-link active" data-toggle="tab" href="#home">ثبت اولیه</a>
-        </li>
+<%--        <li class="nav-item">--%>
+<%--            <a class="nav-link active" data-toggle="tab" href="#home">ثبت اولیه</a>--%>
+<%--        </li>--%>
         <li class="nav-item">
             <a class="nav-link" data-toggle="tab" href="#menu1">تایید اولیه</a>
         </li>
