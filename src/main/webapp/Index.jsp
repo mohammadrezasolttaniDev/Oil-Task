@@ -34,26 +34,7 @@
     </ul>
 </div>
 <div class="content" id="content">
-<%--<ul class="nav nav-tabs" role="tablist">--%>
-<%--&lt;%&ndash;        <li class="nav-item">&ndash;%&gt;--%>
-<%--&lt;%&ndash;            <a class="nav-link active" data-toggle="tab" href="#home">ثبت اولیه</a>&ndash;%&gt;--%>
-<%--&lt;%&ndash;        </li>&ndash;%&gt;--%>
-<%--        <li class="nav-item">--%>
-<%--            <a class="nav-link" data-toggle="tab" href="#menu1">ثبت اولیه</a>--%>
-<%--        </li>--%>
-<%--        <li class="nav-item">--%>
-<%--            <a class="nav-link" data-toggle="tab" href="#menu2">لیست</a>--%>
-<%--        </li>--%>
-<%--    </ul>--%>
-<%--<div class="tab-content">--%>
-<%--        <div id="menu1" class=" tab-pane fade"><br>--%>
-<%--            <jsp:include page="users/Edit.jsp"/>--%>
-<%--        </div>--%>
-<%--        <div id="menu2" class=" tab-pane fade"><br>--%>
-<%--            <jsp:include page="users/Grid.jsp"/>--%>
-<%--        </div>--%>
-<%--    </div>--%>
-<%--</div>--%>
+</div>
 <script src="mainTemplate/js/templateJs.js"></script>
 </body>
 </html>
