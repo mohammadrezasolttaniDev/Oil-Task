@@ -126,3 +126,16 @@ body, html {
 .nav.nav-tabs .nav-item {
     margin-left: 10px; /* To adjust spacing between items */
 }
+.section {
+    border: 1px solid #9a9a9a;
+    height: 250px; /* ارتفاع را طبق نیاز خود تنظیم کنید */
+    /*width: 1000px;*/
+    margin: 5px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.58);
+    background-color: #f5f5f5;
+
+}
+.sections {
+    /*float: right;*/
+}
