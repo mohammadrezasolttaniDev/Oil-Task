@@ -14,7 +14,7 @@
 </head>
 <body style="background-color:rgba(215,215,215,0.63);">
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-        <a class="nav-link text-light" href="#"><i class="bi bi-person-fill"></i></a>
+        <a class="nav-link text-light" href="#"  data-toggle="modal" data-target="#exampleModal"><i class="bi bi-person-fill"></i></a>
 <%--        <img src="logo.png" height="40" width="120">--%>
 </nav>
 <div class="sidebar" id="sidebar">
@@ -35,6 +35,26 @@
 </div>
 
 <div class="content" id="content">
+</div>
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                ...
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+        </div>
+    </div>
 </div>
 <script src="mainTemplate/js/templateJs.js"></script>
 </body>
