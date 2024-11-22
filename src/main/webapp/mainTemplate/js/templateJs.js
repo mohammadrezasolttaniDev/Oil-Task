@@ -66,3 +66,16 @@ function loadContent(pageAddress) {
     };
     xhr.send();
 }
+
+document.addEventListener("DOMContentLoaded", function() {
+    const menuItems = document.querySelectorAll("#menuItems .nav-link");
+
+    menuItems.forEach(item => {
+        item.addEventListener("click", function() {
+            menuItems.forEach(link => link.classList.remove("active"));
+            this.classList.add("active");
+        });
+    });
+});
+
+

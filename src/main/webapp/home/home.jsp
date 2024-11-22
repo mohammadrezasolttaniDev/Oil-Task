@@ -10,12 +10,13 @@
         body, html {
             height: 100%;
             margin: 0;
-            overflow: auto;
+            /*overflow: scroll;*/
             /*direction: rtl;*/
         }
         .container-fluid {
             height: 100%;
             padding: 20px; /* فاصله از اطراف بدنه اصلی */
+            /*overflow-x: scroll;*/
         }
         .row {
             height: 50%;
@@ -23,7 +24,7 @@
         }
         .col-md-5 {
             flex: 0 0 48%; /* عرض باکس‌ها افزایش یافته و فضای کافی برای فاصله */
-            max-width: 48%;
+            max-width: 95%;
             height: calc(100% - 20px); /* کم کردن 20 پیکسل برای فاصله */
             border: 1px solid rgba(0, 0, 0, 0.14);
             box-sizing: border-box;
@@ -31,7 +32,7 @@
             margin: 10px;
             border-radius: 5px;
             background-color: #fff;
-            overflow: auto;
+            /*overflow: auto;*/
             padding: 20px; /* فاصله داخلی برای زیبایی */
             direction: rtl;
         }
@@ -63,37 +64,50 @@
     </style>
 </head>
 <body>
-<div class="container-fluid" dir="rtl">
-    <div class="row">
+<table class="container-fluid" dir="rtl">
+<tr>
         <!-- باکس بالایی سمت چپ (اطلاعات کاربر) -->
+    <td>
         <div class="col-md-5">
             <div class="user-info">
                 <img src="../logo.png" alt="User Photo">
                 <div>
-                    <h4>نام و نام خانوادگی</h4>
-                    <p>تاریخ تولد: ۱۳۶۰/۰۱/۰۱</p>
+                    <h4>علیرضا محسنی</h4>
+                    <p>تاریخ تولد : ۱۳۶۰/۰۱/۰۱</p>
+                    <p>ساعت ورود : 8:40</p>
+                    <p>سطح دسترسی : مدیر عامل</p>
                 </div>
             </div>
         </div>
+    </td>
+    <td>
         <!-- باکس بالایی سمت راست (ساعت) -->
         <div class="col-md-5">
             <div class="clock" id="clock"></div>
         </div>
-    </div>
-    <div class="row">
+    </td>
+
+</tr>
         <!-- باکس پایین سمت چپ (لیست وظایف) -->
+    <tr>
+        <td>
         <div class="col-md-5">
             <div class="todo-list">
                 <h4>لیست وظایف</h4>
                 <ul id="tasks">
                     <!-- نمونه تسک -->
                     <li><input type="checkbox"> تسک ۱</li>
+                    <li><input type="checkbox"> تسک 2</li>
+                    <li><input type="checkbox"> تسک 3</li>
+                    <li><input type="checkbox"> تسک 4</li>
                 </ul>
                 <input type="text" id="newTask" placeholder="تسک جدید" class="form-control">
                 <button onclick="addTask()" class="btn btn-primary mt-2">افزودن</button>
             </div>
         </div>
+        </td>
         <!-- باکس پایین سمت راست (تقویم) -->
+        <td>
         <div class="col-md-5">
             <div class="calendar" id="calendar">
                 <h4>تقویم شمسی</h4>
@@ -101,8 +115,9 @@
                 <iframe src="https://www.time.ir/" style="width:100%; height:100%; border:none;"></iframe> <!-- افزودن تقویم شمسی -->
             </div>
         </div>
-    </div>
-</div>
+        </td>
+    </tr>
+</table>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>

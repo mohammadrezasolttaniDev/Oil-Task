@@ -24,15 +24,16 @@
     </div>
     <ul class="nav flex-column" id="menuItems">
         <li class="nav-item">
-            <a style="color: #007bff;cursor: pointer" class="bi bi-house-door-fill nav-link" onclick="loadContent('home/home.jsp')"><strong
+            <a style="color: rgb(255,255,255);cursor: pointer" class="bi bi-house-door-fill nav-link active" onclick="loadContent('home/home.jsp')"><strong
                     style="float: right;">خانه</strong></a>
         </li>
         <li class="nav-item">
-            <a style="color: #007bff;cursor: pointer" class="bi bi-person-fill nav-link"  onclick="loadContent('users/Index.jsp')"> <strong
+            <a style="color: #ffffff;cursor: pointer" class="bi bi-person-fill nav-link" onclick="loadContent('users/Index.jsp')"> <strong
                     style="float: right;">کاربران</strong></a>
         </li>
     </ul>
 </div>
+
 <div class="content" id="content">
 </div>
 <script src="mainTemplate/js/templateJs.js"></script>

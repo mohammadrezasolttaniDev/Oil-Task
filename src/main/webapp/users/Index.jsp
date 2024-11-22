@@ -21,7 +21,7 @@
                 <a class="nav-link" data-toggle="tab" href="#menu1">ثبت اولیه</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" data-toggle="tab" href="#menu2">لیست</a>
+                <a class="nav-link" data-toggle="tab" href="#menu2" >لیست</a>
             </li>
         </ul>
     <div class="tab-content">
