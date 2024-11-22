@@ -70,7 +70,7 @@
     <td>
         <div class="col-md-5">
             <div class="user-info">
-                <img src="../logo.png" alt="User Photo">
+                <img id="myImg" src="../logo.png" alt="User Photo" onclick="aclic()">
                 <div>
                     <h4>علیرضا محسنی</h4>
                     <p>تاریخ تولد : ۱۳۶۰/۰۱/۰۱</p>
@@ -118,37 +118,23 @@
         </td>
     </tr>
 </table>
+<!-- Trigger the Modal -->
+<%--<img id="myImg" src="../logo.png" alt="Snow" style="width:100%;max-width:300px">--%>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+    <!-- The Close Button -->
+    <span class="close">&times;</span>
+
+    <!-- Modal Content (The Image) -->
+    <img class="modal-content" id="img01">
+
+    <!-- Modal Caption (Image Text) -->
+    <div id="caption"></div>
+</div>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-<script>
-    // ساعت زنده
-    function updateClock() {
-        var now = new Date();
-        var hours = now.getHours().toString().padStart(2, '0');
-        var minutes = now.getMinutes().toString().padStart(2, '0');
-        var seconds = now.getSeconds().toString().padStart(2, '0');
-        document.getElementById('clock').innerHTML = `${hours}:${minutes}:${seconds}`;
-    }
-    setInterval(updateClock, 1000);
-
-    // افزودن تسک
-    function addTask() {
-        var taskText = document.getElementById('newTask').value;
-        if (taskText) {
-            var li = document.createElement('li');
-            li.innerHTML = `<input type="checkbox"> ${taskText}`;
-            document.getElementById('tasks').appendChild(li);
-            document.getElementById('newTask').value = '';
-        }
-    }
-
-    // تنظیم تاریخ شمسی
-    function setTodayDate() {
-        var date = new Date().toLocaleDateString('fa-IR');
-        document.getElementById('todayDate').innerText = date;
-    }
-    setTodayDate();
-</script>
 </body>
 </html>

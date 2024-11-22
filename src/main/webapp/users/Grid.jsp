@@ -18,7 +18,7 @@
     </style>
 </head>
 <body>
-<div class="table-container table-responsive" style="padding: 0px 5px 0px 5px;border: 1px solid darkgray">
+<div class="table-container table-responsive" style="padding: 0px 5px 0px 5px;border: 1px solid darkgray;max-height:100%">
     <table class="table" style="direction: rtl;">
         <thead style="position: sticky;top: 0;z-index: 10;background-color: #f2f2f2;">
         <tr>
@@ -34,9 +34,149 @@
             <td style="text-align: right;">Defaultson</td>
             <td style="text-align: right;">def@somemail.com</td>
             <td style="text-align: right;">
-                <button type="button" class="btn btn-primary"><i class="bi bi-eye"></i></button>
-                <button type="button" class="btn btn-success"><i class="bi bi-pencil"></i></button>
-                <button type="button" class="btn btn-danger"><i class="bi bi-trash"></i></button>
+                <button type="button" class="btn-sm btn-primary"><i class="bi bi-eye"></i></button>
+                <button type="button" class="btn-sm btn-success"><i class="bi bi-pencil"></i></button>
+                <button type="button" class="btn-sm btn-danger"><i class="bi bi-trash"></i></button>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: right;">22255</td>
+            <td style="text-align: right;">Defaultson</td>
+            <td style="text-align: right;">def@somemail.com</td>
+            <td style="text-align: right;">
+                <button type="button" class="btn-sm btn-primary"><i class="bi bi-eye"></i></button>
+                <button type="button" class="btn-sm btn-success"><i class="bi bi-pencil"></i></button>
+                <button type="button" class="btn-sm btn-danger"><i class="bi bi-trash"></i></button>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: right;">22255</td>
+            <td style="text-align: right;">Defaultson</td>
+            <td style="text-align: right;">def@somemail.com</td>
+            <td style="text-align: right;">
+                <button type="button" class="btn-sm btn-primary"><i class="bi bi-eye"></i></button>
+                <button type="button" class="btn-sm btn-success"><i class="bi bi-pencil"></i></button>
+                <button type="button" class="btn-sm btn-danger"><i class="bi bi-trash"></i></button>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: right;">22255</td>
+            <td style="text-align: right;">Defaultson</td>
+            <td style="text-align: right;">def@somemail.com</td>
+            <td style="text-align: right;">
+                <button type="button" class="btn-sm btn-primary"><i class="bi bi-eye"></i></button>
+                <button type="button" class="btn-sm btn-success"><i class="bi bi-pencil"></i></button>
+                <button type="button" class="btn-sm btn-danger"><i class="bi bi-trash"></i></button>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: right;">22255</td>
+            <td style="text-align: right;">Defaultson</td>
+            <td style="text-align: right;">def@somemail.com</td>
+            <td style="text-align: right;">
+                <button type="button" class="btn-sm btn-primary"><i class="bi bi-eye"></i></button>
+                <button type="button" class="btn-sm btn-success"><i class="bi bi-pencil"></i></button>
+                <button type="button" class="btn-sm btn-danger"><i class="bi bi-trash"></i></button>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: right;">22255</td>
+            <td style="text-align: right;">Defaultson</td>
+            <td style="text-align: right;">def@somemail.com</td>
+            <td style="text-align: right;">
+                <button type="button" class="btn-sm btn-primary"><i class="bi bi-eye"></i></button>
+                <button type="button" class="btn-sm btn-success"><i class="bi bi-pencil"></i></button>
+                <button type="button" class="btn-sm btn-danger"><i class="bi bi-trash"></i></button>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: right;">22255</td>
+            <td style="text-align: right;">Defaultson</td>
+            <td style="text-align: right;">def@somemail.com</td>
+            <td style="text-align: right;">
+                <button type="button" class="btn-sm btn-primary"><i class="bi bi-eye"></i></button>
+                <button type="button" class="btn-sm btn-success"><i class="bi bi-pencil"></i></button>
+                <button type="button" class="btn-sm btn-danger"><i class="bi bi-trash"></i></button>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: right;">22255</td>
+            <td style="text-align: right;">Defaultson</td>
+            <td style="text-align: right;">def@somemail.com</td>
+            <td style="text-align: right;">
+                <button type="button" class="btn-sm btn-primary"><i class="bi bi-eye"></i></button>
+                <button type="button" class="btn-sm btn-success"><i class="bi bi-pencil"></i></button>
+                <button type="button" class="btn-sm btn-danger"><i class="bi bi-trash"></i></button>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: right;">22255</td>
+            <td style="text-align: right;">Defaultson</td>
+            <td style="text-align: right;">def@somemail.com</td>
+            <td style="text-align: right;">
+                <button type="button" class="btn-sm btn-primary"><i class="bi bi-eye"></i></button>
+                <button type="button" class="btn-sm btn-success"><i class="bi bi-pencil"></i></button>
+                <button type="button" class="btn-sm btn-danger"><i class="bi bi-trash"></i></button>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: right;">22255</td>
+            <td style="text-align: right;">Defaultson</td>
+            <td style="text-align: right;">def@somemail.com</td>
+            <td style="text-align: right;">
+                <button type="button" class="btn-sm btn-primary"><i class="bi bi-eye"></i></button>
+                <button type="button" class="btn-sm btn-success"><i class="bi bi-pencil"></i></button>
+                <button type="button" class="btn-sm btn-danger"><i class="bi bi-trash"></i></button>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: right;">22255</td>
+            <td style="text-align: right;">Defaultson</td>
+            <td style="text-align: right;">def@somemail.com</td>
+            <td style="text-align: right;">
+                <button type="button" class="btn-sm btn-primary"><i class="bi bi-eye"></i></button>
+                <button type="button" class="btn-sm btn-success"><i class="bi bi-pencil"></i></button>
+                <button type="button" class="btn-sm btn-danger"><i class="bi bi-trash"></i></button>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: right;">22255</td>
+            <td style="text-align: right;">Defaultson</td>
+            <td style="text-align: right;">def@somemail.com</td>
+            <td style="text-align: right;">
+                <button type="button" class="btn-sm btn-primary"><i class="bi bi-eye"></i></button>
+                <button type="button" class="btn-sm btn-success"><i class="bi bi-pencil"></i></button>
+                <button type="button" class="btn-sm btn-danger"><i class="bi bi-trash"></i></button>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: right;">22255</td>
+            <td style="text-align: right;">Defaultson</td>
+            <td style="text-align: right;">def@somemail.com</td>
+            <td style="text-align: right;">
+                <button type="button" class="btn-sm btn-primary"><i class="bi bi-eye"></i></button>
+                <button type="button" class="btn-sm btn-success"><i class="bi bi-pencil"></i></button>
+                <button type="button" class="btn-sm btn-danger"><i class="bi bi-trash"></i></button>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: right;">22255</td>
+            <td style="text-align: right;">Defaultson</td>
+            <td style="text-align: right;">def@somemail.com</td>
+            <td style="text-align: right;">
+                <button type="button" class="btn-sm btn-primary"><i class="bi bi-eye"></i></button>
+                <button type="button" class="btn-sm btn-success"><i class="bi bi-pencil"></i></button>
+                <button type="button" class="btn-sm btn-danger"><i class="bi bi-trash"></i></button>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: right;">22255</td>
+            <td style="text-align: right;">Defaultson</td>
+            <td style="text-align: right;">def@somemail.com</td>
+            <td style="text-align: right;">
+                <button type="button" class="btn-sm btn-primary"><i class="bi bi-eye"></i></button>
+                <button type="button" class="btn-sm btn-success"><i class="bi bi-pencil"></i></button>
+                <button type="button" class="btn-sm btn-danger"><i class="bi bi-trash"></i></button>
             </td>
         </tr>
         <tr class="success">
@@ -44,9 +184,9 @@
             <td style="text-align: right;">Doe</td>
             <td style="text-align: right;">john@example.com</td>
             <td style="text-align: right;">
-                <button type="button" class="btn btn-primary"><i class="bi bi-eye"></i></button>
-                <button type="button" class="btn btn-success"><i class="bi bi-pencil"></i></button>
-                <button type="button" class="btn btn-danger"><i class="bi bi-trash"></i></button>
+                <button type="button" class="btn-sm btn-primary"><i class="bi bi-eye"></i></button>
+                <button type="button" class="btn-sm btn-success"><i class="bi bi-pencil"></i></button>
+                <button type="button" class="btn-sm btn-danger"><i class="bi bi-trash"></i></button>
             </td>
         </tr>
         <tr class="danger">
@@ -54,9 +194,9 @@
             <td style="text-align: right;">Moe</td>
             <td style="text-align: right;">mary@example.com</td>
             <td style="text-align: right;">
-                <button type="button" class="btn btn-primary"><i class="bi bi-eye"></i></button>
-                <button type="button" class="btn btn-success"><i class="bi bi-pencil"></i></button>
-                <button type="button" class="btn btn-danger"><i class="bi bi-trash"></i></button>
+                <button type="button" class="btn-sm btn-primary"><i class="bi bi-eye"></i></button>
+                <button type="button" class="btn-sm btn-success"><i class="bi bi-pencil"></i></button>
+                <button type="button" class="btn-sm btn-danger"><i class="bi bi-trash"></i></button>
             </td>
         </tr>
         <tr class="info">
@@ -64,9 +204,9 @@
             <td style="text-align: right;">Dooley</td>
             <td style="text-align: right;">july@example.com</td>
             <td style="text-align: right;">
-                <button type="button" class="btn btn-primary"><i class="bi bi-eye"></i></button>
-                <button type="button" class="btn btn-success"><i class="bi bi-pencil"></i></button>
-                <button type="button" class="btn btn-danger"><i class="bi bi-trash"></i></button>
+                <button type="button" class="btn-sm btn-primary"><i class="bi bi-eye"></i></button>
+                <button type="button" class="btn-sm btn-success"><i class="bi bi-pencil"></i></button>
+                <button type="button" class="btn-sm btn-danger"><i class="bi bi-trash"></i></button>
             </td>
         </tr>
         <!-- Extra Rows -->
@@ -75,9 +215,9 @@
             <td style="text-align: right;">Defaultson</td>
             <td style="text-align: right;">def@somemail.com</td>
             <td style="text-align: right;">
-                <button type="button" class="btn btn-primary"><i class="bi bi-eye"></i></button>
-                <button type="button" class="btn btn-success"><i class="bi bi-pencil"></i></button>
-                <button type="button" class="btn btn-danger"><i class="bi bi-trash"></i></button>
+                <button type="button" class="btn-sm btn-primary"><i class="bi bi-eye"></i></button>
+                <button type="button" class="btn-sm btn-success"><i class="bi bi-pencil"></i></button>
+                <button type="button" class="btn-sm btn-danger"><i class="bi bi-trash"></i></button>
             </td>
         </tr>
         <tr class="success">
@@ -85,9 +225,9 @@
             <td style="text-align: right;">Doe</td>
             <td style="text-align: right;">john@example.com</td>
             <td style="text-align: right;">
-                <button type="button" class="btn btn-primary"><i class="bi bi-eye"></i></button>
-                <button type="button" class="btn btn-success"><i class="bi bi-pencil"></i></button>
-                <button type="button" class="btn btn-danger"><i class="bi bi-trash"></i></button>
+                <button type="button" class="btn-sm btn-primary"><i class="bi bi-eye"></i></button>
+                <button type="button" class="btn-sm btn-success"><i class="bi bi-pencil"></i></button>
+                <button type="button" class="btn-sm btn-danger"><i class="bi bi-trash"></i></button>
             </td>
         </tr>
         <tr class="danger">
@@ -95,9 +235,9 @@
             <td style="text-align: right;">Moe</td>
             <td style="text-align: right;">mary@example.com</td>
             <td style="text-align: right;">
-                <button type="button" class="btn btn-primary"><i class="bi bi-eye"></i></button>
-                <button type="button" class="btn btn-success"><i class="bi bi-pencil"></i></button>
-                <button type="button" class="btn btn-danger"><i class="bi bi-trash"></i></button>
+                <button type="button" class="btn-sm btn-primary"><i class="bi bi-eye"></i></button>
+                <button type="button" class="btn-sm btn-success"><i class="bi bi-pencil"></i></button>
+                <button type="button" class="btn-sm btn-danger"><i class="bi bi-trash"></i></button>
             </td>
         </tr>
         <tr class="info">
@@ -105,9 +245,9 @@
             <td style="text-align: right;">Dooley</td>
             <td style="text-align: right;">july@example.com</td>
             <td style="text-align: right;">
-                <button type="button" class="btn btn-primary"><i class="bi bi-eye"></i></button>
-                <button type="button" class="btn btn-success"><i class="bi bi-pencil"></i></button>
-                <button type="button" class="btn btn-danger"><i class="bi bi-trash"></i></button>
+                <button type="button" class="btn-sm btn-primary"><i class="bi bi-eye"></i></button>
+                <button type="button" class="btn-sm btn-success"><i class="bi bi-pencil"></i></button>
+                <button type="button" class="btn-sm btn-danger"><i class="bi bi-trash"></i></button>
             </td>
         </tr>
         <tr>
@@ -115,9 +255,9 @@
             <td style="text-align: right;">Defaultson</td>
             <td style="text-align: right;">def@somemail.com</td>
             <td style="text-align: right;">
-                <button type="button" class="btn btn-primary"><i class="bi bi-eye"></i></button>
-                <button type="button" class="btn btn-success"><i class="bi bi-pencil"></i></button>
-                <button type="button" class="btn btn-danger"><i class="bi bi-trash"></i></button>
+                <button type="button" class="btn-sm btn-primary"><i class="bi bi-eye"></i></button>
+                <button type="button" class="btn-sm btn-success"><i class="bi bi-pencil"></i></button>
+                <button type="button" class="btn-sm btn-danger"><i class="bi bi-trash"></i></button>
             </td>
         </tr>
         <tr class="success">
@@ -125,9 +265,9 @@
             <td style="text-align: right;">Doe</td>
             <td style="text-align: right;">john@example.com</td>
             <td style="text-align: right;">
-                <button type="button" class="btn btn-primary"><i class="bi bi-eye"></i></button>
-                <button type="button" class="btn btn-success"><i class="bi bi-pencil"></i></button>
-                <button type="button" class="btn btn-danger"><i class="bi bi-trash"></i></button>
+                <button type="button" class="btn-sm btn-primary"><i class="bi bi-eye"></i></button>
+                <button type="button" class="btn-sm btn-success"><i class="bi bi-pencil"></i></button>
+                <button type="button" class="btn-sm btn-danger"><i class="bi bi-trash"></i></button>
             </td>
         </tr>
         <tr class="danger">
@@ -135,9 +275,9 @@
             <td style="text-align: right;">Moe</td>
             <td style="text-align: right;">mary@example.com</td>
             <td style="text-align: right;">
-                <button type="button" class="btn btn-primary"><i class="bi bi-eye"></i></button>
-                <button type="button" class="btn btn-success"><i class="bi bi-pencil"></i></button>
-                <button type="button" class="btn btn-danger"><i class="bi bi-trash"></i></button>
+                <button type="button" class="btn-sm btn-primary"><i class="bi bi-eye"></i></button>
+                <button type="button" class="btn-sm btn-success"><i class="bi bi-pencil"></i></button>
+                <button type="button" class="btn-sm btn-danger"><i class="bi bi-trash"></i></button>
             </td>
         </tr>
         <tr class="info">
@@ -145,9 +285,9 @@
             <td style="text-align: right;">Dooley</td>
             <td style="text-align: right;">july@example.com</td>
             <td style="text-align: right;">
-                <button type="button" class="btn btn-primary"><i class="bi bi-eye"></i></button>
-                <button type="button" class="btn btn-success"><i class="bi bi-pencil"></i></button>
-                <button type="button" class="btn btn-danger"><i class="bi bi-trash"></i></button>
+                <button type="button" class="btn-sm btn-primary"><i class="bi bi-eye"></i></button>
+                <button type="button" class="btn-sm btn-success"><i class="bi bi-pencil"></i></button>
+                <button type="button" class="btn-sm btn-danger"><i class="bi bi-trash"></i></button>
             </td>
         </tr>
         </tbody>

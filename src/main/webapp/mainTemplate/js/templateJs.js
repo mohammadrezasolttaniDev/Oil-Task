@@ -77,5 +77,55 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     });
 });
+function updateClock() {
+    var now = new Date();
+    var hours = now.getHours().toString().padStart(2, '0');
+    var minutes = now.getMinutes().toString().padStart(2, '0');
+    var seconds = now.getSeconds().toString().padStart(2, '0');
+    document.getElementById('clock').innerHTML = `${hours}:${minutes}:${seconds}`;
+}
+setInterval(updateClock, 1000);
+
+// افزودن تسک
+function addTask() {
+    var taskText = document.getElementById('newTask').value;
+    if (taskText) {
+        var li = document.createElement('li');
+        li.innerHTML = `<input type="checkbox"> ${taskText}`;
+        document.getElementById('tasks').appendChild(li);
+        document.getElementById('newTask').value = '';
+    }
+}
+
+// تنظیم تاریخ شمسی
+function setTodayDate() {
+    var date = new Date().toLocaleDateString('fa-IR');
+    document.getElementById('todayDate').innerText = date;
+}
+setTodayDate();
+// Get the modal
+function aclic(){
+    var modal = document.getElementById("myModal");
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+//     var img = document.getElementById("myImg");
+    var modalImg = document.getElementById("img01");
+    var captionText = document.getElementById("caption");
+
+    modal.style.display = "block";
+    modalImg.src = "../logo.png";
+    alt="Snow"
+    captionText.innerHTML = this.alt;
+    console.log("sdasdasdasd")
+    var span = document.getElementsByClassName("close")[0];
+    span.onclick = function() {
+        modal.style.display = "none";
+    }
+}
+
+
+// Get the <span> element that closes the modal
+
+// When the user clicks on <span> (x), close the modal
 
 
