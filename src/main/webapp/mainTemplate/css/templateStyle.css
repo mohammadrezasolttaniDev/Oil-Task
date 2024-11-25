@@ -35,7 +35,7 @@ body, html {
     background-color: #fff;
     margin-right: 210px;
     margin-left: 10px;
-    margin-top: 3%;
+    margin-top: 1%;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.58);
     transition: margin-right 0.5s;
@@ -232,4 +232,29 @@ body, html {
         width: 100%;
     }
 }
+.marquee {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    box-sizing: border-box;
+}
+.marquee span {
+    display: inline-block;
+    padding-right: 100%;
+    animation: marquee 20s linear infinite;
+}
+@keyframes marquee {
+    0% {
+        transform: translate(-100%, 0);
+    }
+    100% {
+        transform: translate(100%, 0);
+    }
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+
 

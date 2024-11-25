@@ -58,8 +58,8 @@ function changeNavbar(evt, partName) {
 
 function loadContent(pageAddress) {
     var xhr = new XMLHttpRequest();
-    xhr.open('GET', pageAddress , true);
-    xhr.onreadystatechange = function() {
+    xhr.open('GET', pageAddress, true);
+    xhr.onreadystatechange = function () {
         if (xhr.readyState === 4 && xhr.status === 200) {
             document.getElementById('content').innerHTML = xhr.responseText;
         }
@@ -67,24 +67,26 @@ function loadContent(pageAddress) {
     xhr.send();
 }
 
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function () {
     const menuItems = document.querySelectorAll("#menuItems .nav-link");
 
     menuItems.forEach(item => {
-        item.addEventListener("click", function() {
+        item.addEventListener("click", function () {
             menuItems.forEach(link => link.classList.remove("active"));
             this.classList.add("active");
         });
     });
 });
-function updateClock() {
-    var now = new Date();
-    var hours = now.getHours().toString().padStart(2, '0');
-    var minutes = now.getMinutes().toString().padStart(2, '0');
-    var seconds = now.getSeconds().toString().padStart(2, '0');
-    document.getElementById('clock').innerHTML = `${hours}:${minutes}:${seconds}`;
-}
-setInterval(updateClock, 1000);
+
+// function updateClock() {
+//     var now = new Date();
+//     var hours = now.getHours().toString().padStart(2, '0');
+//     var minutes = now.getMinutes().toString().padStart(2, '0');
+//     var seconds = now.getSeconds().toString().padStart(2, '0');
+//     document.getElementById('clock').innerHTML = `${hours}:${minutes}:${seconds}`;
+// }
+//
+// setInterval(updateClock, 1000);
 
 // افزودن تسک
 function addTask() {
@@ -102,9 +104,11 @@ function setTodayDate() {
     var date = new Date().toLocaleDateString('fa-IR');
     document.getElementById('todayDate').innerText = date;
 }
+
 setTodayDate();
+
 // Get the modal
-function aclic(){
+function aclic() {
     var modal = document.getElementById("myModal");
 
 // Get the image and insert it inside the modal - use its "alt" text as a caption
@@ -114,15 +118,38 @@ function aclic(){
 
     modal.style.display = "block";
     modalImg.src = "../logo.png";
-    alt="Snow"
+    alt = "Snow"
     captionText.innerHTML = this.alt;
     console.log("sdasdasdasd")
     var span = document.getElementsByClassName("close")[0];
-    span.onclick = function() {
+    span.onclick = function () {
         modal.style.display = "none";
     }
 }
 
+const span = document.querySelector('.marquee span');
+span.style.animation = `marquee 20s linear infinite`;
+setInterval(() => {
+    span.style.animation = 'none';
+    setTimeout(() => {
+        span.style.animation = `marquee 20s linear infinite`;
+    }, 20);
+}, 20000);
+
+
+// document.addEventListener('DOMContentLoaded', function() {
+//     let currentIndex = 0;
+//     const slides = document.querySelectorAll('.slide');
+//     const slideCount = slides.length;
+//
+//     function showNextSlide() {
+//         currentIndex = (currentIndex + 1) % slideCount;
+//         const newTransform = `translateX(-${currentIndex * 100}%)`;
+//         document.querySelector('.slides').style.transform = newTransform;
+//     }
+//
+//     setInterval(showNextSlide, 2000);
+// });
 
 // Get the <span> element that closes the modal
 
