@@ -23,17 +23,17 @@
             justify-content: space-between;
         }
         .col-md-5 {
-            flex: 0 0 48%; /* عرض باکس‌ها افزایش یافته و فضای کافی برای فاصله */
+            flex: 0 0 20%; /* عرض باکس‌ها افزایش یافته و فضای کافی برای فاصله */
             max-width: 95%;
             height: calc(100% - 20px); /* کم کردن 20 پیکسل برای فاصله */
             border: 1px solid rgba(0, 0, 0, 0.14);
             box-sizing: border-box;
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.58);
-            margin: 10px;
+            /*margin: 10px;*/
             border-radius: 5px;
             background-color: #fff;
             /*overflow: auto;*/
-            padding: 20px; /* فاصله داخلی برای زیبایی */
+            padding: 50px; /* فاصله داخلی برای زیبایی */
             direction: rtl;
         }
         .user-info {
@@ -99,77 +99,47 @@
         </div>
     </td>
     <td>
-        <!-- باکس بالایی سمت راست (ساعت) -->
         <div class="col-md-5">
-            <div class="container">
-                <div class="col-md-6">
-                    <div class="section">
-                        <h2>اسلایدشو</h2>
-                        <div id="carouselExampleIndicators"  class="carousel slide" data-ride="carousel">
-                            <!-- Indicators -->
-                            <ol class="carousel-indicators">
-                                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                            </ol>
-
-                            <!-- The slideshow -->
-                            <div class="carousel-inner">
-                                <div class="carousel-item active">
-                                    <img src="path/to/image1.jpg" alt="Image 1">
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="path/to/image2.jpg" alt="Image 2">
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="path/to/image3.jpg" alt="Image 3">
-                                </div>
-                            </div>
-
-                            <!-- Left and right controls -->
-                            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                <span class="sr-only">Previous</span>
-                            </a>
-                            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                <span class="sr-only">Next</span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
+            <div class="user-info">
+<%--                <img id="myIdmg" src="../logo.png" alt="User Photo" onclick="aclic()">--%>
+<%--                <div>--%>
+<%--                    <h4>علیرضا محسنی</h4>--%>
+<%--                    <p>تاریخ تولد : ۱۳۶۰/۰۱/۰۱</p>--%>
+<%--                    <p>ساعت ورود : 8:40</p>--%>
+<%--                    <p>سطح دسترسی : مدیر عامل</p>--%>
+<%--                </div>--%>
             </div>
         </div>
     </td>
-
 </tr>
         <!-- باکس پایین سمت چپ (لیست وظایف) -->
     <tr>
+        <!-- باکس بالایی سمت چپ (اطلاعات کاربر) -->
         <td>
-        <div class="col-md-5">
-            <div class="todo-list">
-                <h4>لیست وظایف</h4>
-                <ul id="tasks">
-                    <!-- نمونه تسک -->
-                    <li><input type="checkbox"> تسک ۱</li>
-                    <li><input type="checkbox"> تسک 2</li>
-                    <li><input type="checkbox"> تسک 3</li>
-                    <li><input type="checkbox"> تسک 4</li>
-                </ul>
-                <input type="text" id="newTask" placeholder="تسک جدید" class="form-control">
-                <button onclick="addTask()" class="btn btn-primary mt-2">افزودن</button>
+            <div class="col-md-5">
+                <div class="user-info">
+<%--                    <img id="myIdsmg" src="../logo.png" alt="User Photo" onclick="aclic()">--%>
+<%--                    <div>--%>
+<%--                        <h4>علیرضا محسنی</h4>--%>
+<%--                        <p>تاریخ تولد : ۱۳۶۰/۰۱/۰۱</p>--%>
+<%--                        <p>ساعت ورود : 8:40</p>--%>
+<%--                        <p>سطح دسترسی : مدیر عامل</p>--%>
+<%--                    </div>--%>
+                </div>
             </div>
-        </div>
         </td>
-        <!-- باکس پایین سمت راست (تقویم) -->
         <td>
-        <div class="col-md-5">
-            <div class="calendar" id="calendar">
-                <h4>تقویم شمسی</h4>
-                <div>تاریخ امروز: <span id="todayDate"></span></div>
-                <iframe src="https://www.time.ir/" style="width:100%; height:100%; border:none;"></iframe> <!-- افزودن تقویم شمسی -->
+            <div class="col-md-5">
+                <div class="user-info">
+                    <img id="mygrIdmg" src="../logo.png" alt="User Photo" onclick="aclic()">
+                    <div>
+                        <h4>علیرضا محسنی</h4>
+                        <p>تاریخ تولد : ۱۳۶۰/۰۱/۰۱</p>
+                        <p>ساعت ورود : 8:40</p>
+                        <p>سطح دسترسی : مدیر عامل</p>
+                    </div>
+                </div>
             </div>
-        </div>
         </td>
     </tr>
 </table>

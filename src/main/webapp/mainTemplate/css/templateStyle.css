@@ -39,10 +39,11 @@ body, html {
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.58);
     transition: margin-right 0.5s;
-    height: 10%;
+    /*height: 10%;*/
     overflow-y: auto;
-    overflow-x: scroll;
+    /*overflow-x: scroll;*/
     scroll-behavior: inherit;
+
     margin-bottom: 10px;
 }
 
@@ -257,4 +258,18 @@ body, html {
     height: 100%;
 }
 
+.nav-link {
+    position: relative;
+}
+
+.badge {
+    position: absolute;
+    top: -5px;
+    right: -10px;
+    padding: 5px 10px;
+    border-radius: 50%;
+    background-color: red;
+    color: white;
+    font-size: 14px;
+}
 

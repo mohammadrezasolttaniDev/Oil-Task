@@ -9,8 +9,8 @@
         .table-container {
             max-height: 400px; /* حداکثر ارتفاع */
             /*max-width: 500px;*/
-            overflow-y: auto; /* نمایش اسکرول عمودی */
-            overflow-x: hidden; /* پنهان کردن اسکرول افقی */
+            /*overflow-y: scroll; !* نمایش اسکرول عمودی *!*/
+            /*overflow-x: hidden; !* پنهان کردن اسکرول افقی *!*/
         }
         th{
             direction: rtl;

@@ -14,8 +14,12 @@
 </head>
 <body style="background-color:rgba(215,215,215,0.63);">
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-        <a class="nav-link text-light" href="#"  data-toggle="modal" data-target="#exampleModal"><i class="bi bi-person-fill"></i></a>
-<%--        <img src="logo.png" height="40" width="120">--%>
+    <a class="nav-link text-light" href="#" data-toggle="modal" data-target="#exampleModal"><i class="bi bi-person-fill"></i></a>
+        <a class="nav-link text-light" href="#" data-toggle="modal" data-target="#exampleModal">
+            <i class="bi bi-messenger"></i>
+            <span class="badge">3</span>
+        </a>
+    <img src="logo.png" height="40" width="120" class="ml-auto">
 </nav>
 <div class="sidebar" id="sidebar">
     <button class="btn" id="toggleSidebar"><i class="bi bi-list"></i></button>
