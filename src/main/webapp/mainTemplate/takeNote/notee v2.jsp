@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <title>دفترچه یادداشت</title>
     <style>
         body {
@@ -11,15 +12,16 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 100vh;
+            height: 100%;
+            width: 100%;
             margin: 0;
-            background-color: #f0f0f0;
+            background-color: #ffffff;
         }
 
         #notebook {
             background: white;
-            padding: 20px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            /*padding: 20px;*/
+            /*box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);*/
             border-radius: 10px;
             width: 300px;
         }

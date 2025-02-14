@@ -32,8 +32,8 @@
             /*margin: 10px;*/
             border-radius: 5px;
             background-color: #fff;
-            /*overflow: auto;*/
-            padding: 50px; /* فاصله داخلی برای زیبایی */
+            overflow: auto;
+            /*padding: 50px; !* فاصله داخلی برای زیبایی *!*/
             direction: rtl;
         }
         .user-info {
@@ -100,15 +100,10 @@
     </td>
     <td>
         <div class="col-md-5">
-            <div class="user-info">
-<%--                <img id="myIdmg" src="../logo.png" alt="User Photo" onclick="aclic()">--%>
-<%--                <div>--%>
-<%--                    <h4>علیرضا محسنی</h4>--%>
-<%--                    <p>تاریخ تولد : ۱۳۶۰/۰۱/۰۱</p>--%>
-<%--                    <p>ساعت ورود : 8:40</p>--%>
-<%--                    <p>سطح دسترسی : مدیر عامل</p>--%>
-<%--                </div>--%>
-            </div>
+<%--            <div class="user-info">--%>
+                <iframe src="../mainTemplate/persianCalender/persianCalender%20v3.jsp" style="width: 100%; height: 400px; border: none;"></iframe>
+<%--            </div>--%>
+
         </div>
     </td>
 </tr>
@@ -117,28 +112,16 @@
         <!-- باکس بالایی سمت چپ (اطلاعات کاربر) -->
         <td>
             <div class="col-md-5">
-                <div class="user-info">
-<%--                    <img id="myIdsmg" src="../logo.png" alt="User Photo" onclick="aclic()">--%>
-<%--                    <div>--%>
-<%--                        <h4>علیرضا محسنی</h4>--%>
-<%--                        <p>تاریخ تولد : ۱۳۶۰/۰۱/۰۱</p>--%>
-<%--                        <p>ساعت ورود : 8:40</p>--%>
-<%--                        <p>سطح دسترسی : مدیر عامل</p>--%>
-<%--                    </div>--%>
-                </div>
+<%--                <div class="user-info">--%>
+                    <iframe src="../mainTemplate/clockAndAlarm/clockAndAlarm.jsp" style="width: 100%; height: 400px; border: none;"></iframe>
+<%--                </div>--%>
             </div>
         </td>
         <td>
             <div class="col-md-5">
-                <div class="user-info">
-                    <img id="mygrIdmg" src="../logo.png" alt="User Photo" onclick="aclic()">
-                    <div>
-                        <h4>علیرضا محسنی</h4>
-                        <p>تاریخ تولد : ۱۳۶۰/۰۱/۰۱</p>
-                        <p>ساعت ورود : 8:40</p>
-                        <p>سطح دسترسی : مدیر عامل</p>
-                    </div>
-                </div>
+<%--                <div class="user-info">--%>
+                    <iframe src="../mainTemplate/takeNote/notee%20v2.jsp" style="width: 100%; height: 400px; border: none;"></iframe>
+<%--                </div>--%>
             </div>
         </td>
     </tr>

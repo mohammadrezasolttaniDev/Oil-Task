@@ -61,5 +61,8 @@
     </div>
 </div>
 <script src="mainTemplate/js/templateJs.js"></script>
+<script>
+    loadContent('home/home.jsp')
+</script>
 </body>
 </html>

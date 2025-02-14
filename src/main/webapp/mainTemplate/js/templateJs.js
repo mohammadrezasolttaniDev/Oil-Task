@@ -136,7 +136,17 @@ setInterval(() => {
     }, 20);
 }, 20000);
 
-
+// function loadContentDiv(id,pageAddress) {
+//     console.log(id);
+//     var xhr = new XMLHttpRequest();
+//     xhr.open('GET', pageAddress, true);
+//     xhr.onreadystatechange = function () {
+//         if (xhr.readyState === 4 && xhr.status === 200) {
+//             document.getElementById('calenderr').innerHTML = xhr.responseText;
+//         }
+//     };
+//     xhr.send();
+// }
 // document.addEventListener('DOMContentLoaded', function() {
 //     let currentIndex = 0;
 //     const slides = document.querySelectorAll('.slide');
